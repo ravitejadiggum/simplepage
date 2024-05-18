@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 100px 40px 100px;
+}
+.header_end{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:15px;
+}
+
+.header_two{
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+
+.hero_items{
+    display: flex;
+    flex-direction:row;
+    gap:50px;
+    justify-content:flex-end;
+    text-decoration-line: underline;
+}
+
+.hero_one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    display: flex;
+    justify-content:start;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.image1{
+    display: flex;
+
+}
+
+.specialimage{
+    width: 200px;
+}
+
+.image2{
+    display: flex;
+}
+
+.specialtext{
+    color: yellowgreen;
+}
+
+.specialbutton{
+    background-color: orangered;
+    color: antiquewhite;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_icon{
+    width: auto;
+    height: 30px;
+}
+
+.footer_social_section_icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_social_section {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.logbutton{
+    background-color:white;
+    padding: 5px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.449);
+    border-radius: 5px;
+}
+
+.specialbutton{
+    padding: 5px 15px;
+    border: 1px dotted black;
+    border-radius: 8px;
+}
